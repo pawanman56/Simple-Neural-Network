@@ -1,0 +1,11 @@
+Train:
+  batch_size: 16
+  learning_rate: 1.5
+  reg: 0.00001
+  epochs: 10
+  momentum: 0.75
+  debug: True
+
+Model:
+  type: TwoLayerNet # SoftmaxRegression or TwoLayerNet
+  hidden_size: 128 # only applicable for TwolayerNet
